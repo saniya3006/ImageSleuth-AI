@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated demo images and any reports/evidence (never commit evidence)
+assets/demo/
+*.pdf
+evidence/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets (none are needed, but never commit them)
+.streamlit/secrets.toml

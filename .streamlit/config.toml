@@ -1,0 +1,25 @@
+[theme]
+base = "dark"
+primaryColor = "#2DD4BF"
+backgroundColor = "#070B14"
+secondaryBackgroundColor = "#0F1626"
+textColor = "#E6EDF3"
+font = "sans serif"
+
+[server]
+# Streamlit-level upload cap (MB). The app additionally validates size, type and structure.
+maxUploadSize = 20
+# Bind to localhost only: the app is meant to run on your own machine.
+address = "localhost"
+headless = false
+
+[browser]
+# Privacy: do not send usage statistics.
+gatherUsageStats = false
+
+[client]
+showErrorDetails = false
+toolbarMode = "minimal"
+
+[logger]
+level = "warning"

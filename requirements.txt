@@ -1,0 +1,7 @@
+# ImageSleuth AI - pinned, CPU-only dependencies (Python 3.10 - 3.12)
+streamlit==1.41.1
+opencv-python-headless==4.10.0.84
+Pillow==10.4.0
+numpy==2.1.3
+reportlab==4.2.5
+pytest==8.3.3
